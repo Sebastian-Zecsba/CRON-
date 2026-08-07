@@ -1,3 +1,5 @@
+import { measureMemory } from "node:vm";
+
 export enum LogSeverityLevel{
     low = 'low',
     medium = 'medium',
@@ -15,6 +17,14 @@ export class LogEntity {
         this.message = message;
         this.level = level;
         this.createdAt = new Date();
+    }
+
+    static fromJson = (json: string ): LogEntity => {
+        const { message, level, createdAt } = JSON.parse(json)
+        const log = new LogEntity(message, level);
+        log.createdAt = new Date(createdAt);
+
+        return log;
     }
 
 }
