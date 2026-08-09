@@ -1,4 +1,5 @@
 import { CheckService } from "../domain/use-cases/checks/check-service";
+import { SendEmailLogs } from "../domain/use-cases/email/send-email-logs";
 import { FileSystemDAtasource } from "../infrastrucure/datasources/file-system.datasource";
 import { LogRepositoryImpl } from "../infrastrucure/repositories/log.repository.impl";
 import { CronService } from "./cron/cron-service"
@@ -9,6 +10,8 @@ const FileSystemLogRepository = new LogRepositoryImpl(
     new FileSystemDAtasource()
 );
 
+const emailService = new EmailService();
+
 
 export class ServerApp{ 
 
@@ -16,9 +19,16 @@ export class ServerApp{
         console.log('Server started...')
 
         // TODO: Mandar email
-        // const emailService = new EmailService();
-        // emailService.sendEmailWtihFileSystemLogs(
+        
+        // new SendEmailLogs(
+        //     emailService, 
+        //     FileSystemLogRepository
+        // ).execute(
         //     ['zecsba2019casarias@gmail.com', 'sebitascarias@gmail.com']
+        // )
+
+        // emailService.sendEmailWtihFileSystemLogs(
+        //     
         // )
 
         // TODO: Timelpas 
