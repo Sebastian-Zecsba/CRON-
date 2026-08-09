@@ -7,10 +7,11 @@ Crear una serie de tareas usando Arquitectura Limpia con TypeScript
 
 ```
     PORT=3000
+    MAILER_SERVICE=
     MAILER_EMAIL=
     MAILER_SECRET_KEY=
 ```
 
 # Paquetes
-1. Intalar todo con " pnpm i install "
-2. Correr el scrip de production " pnpm run dev " 
+1. Intalar todo con ``` pnpm i install```
+2. Correr el scrip de production ```pnpm run dev``` 

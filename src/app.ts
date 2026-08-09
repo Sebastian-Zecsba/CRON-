@@ -8,6 +8,6 @@ import { ServerApp } from "./presentation/server";
 
 
 function main(){
-    // ServerApp.start();
-    console.log(envs)
+    ServerApp.start();
+    // console.log(envs)
 }

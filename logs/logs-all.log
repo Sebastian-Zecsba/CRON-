@@ -1,47 +1,8 @@
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:39:25.754Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:39:30.611Z"} 
-{"message":"Error: Error on check service https://oogle.com","level":"low","createdAt":"2026-08-07T18:39:35.647Z"} 
-{"message":"Error: Error on check service https://oogle.com","level":"low","createdAt":"2026-08-07T18:39:40.147Z"} 
-{"message":"Error: Error on check service https://oogle.com","level":"low","createdAt":"2026-08-07T18:39:45.369Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:39:50.738Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:39:55.619Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:40:00.609Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:40:05.535Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:40:10.602Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:40:15.594Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:40:20.621Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:40:25.602Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:40:30.611Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:40:35.610Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:41:25.756Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:41:30.607Z"} 
-{"message":"TypeError: fetch failed","level":"high","createdAt":"2026-08-07T18:41:37.831Z"} 
-{"message":"TypeError: fetch failed","level":"high","createdAt":"2026-08-07T18:41:42.722Z"} 
-{"message":"TypeError: fetch failed","level":"high","createdAt":"2026-08-07T18:41:47.790Z"} 
-{"message":"TypeError: fetch failed","level":"high","createdAt":"2026-08-07T18:41:52.712Z"} 
-{"message":"TypeError: fetch failed","level":"high","createdAt":"2026-08-07T18:41:57.806Z"} 
-{"message":"TypeError: fetch failed","level":"high","createdAt":"2026-08-07T18:42:02.699Z"} 
-{"message":"TypeError: fetch failed","level":"high","createdAt":"2026-08-07T18:42:07.778Z"} 
-{"message":"TypeError: fetch failed","level":"high","createdAt":"2026-08-07T18:42:12.725Z"} 
-{"message":"https://googlecom is not ok TypeError: fetch failed","level":"high","createdAt":"2026-08-07T18:42:22.847Z"} 
-{"message":"https://googlecom is not ok TypeError: fetch failed","level":"high","createdAt":"2026-08-07T18:42:27.691Z"} 
-{"message":"https://googlecom is not ok TypeError: fetch failed","level":"high","createdAt":"2026-08-07T18:42:32.789Z"} 
-{"message":"https://googlecom is not ok TypeError: fetch failed","level":"high","createdAt":"2026-08-07T18:42:37.720Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:42:45.748Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:42:50.588Z"} 
-{"message":"Service https://google.com working","level":"low","createdAt":"2026-08-07T18:42:55.515Z"} 
-{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-07T18:43:00.851Z"} 
-{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-07T18:43:05.380Z"} 
-{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-07T18:43:10.384Z"} 
-{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-07T18:43:15.382Z"} 
-{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-07T18:43:20.496Z"} 
-{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-07T18:43:25.405Z"} 
-{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-07T18:43:30.893Z"} 
-{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-07T18:43:35.383Z"} 
-{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-07T18:48:10.971Z"} 
-{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-07T18:48:15.303Z"} 
-{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-07T18:48:20.790Z"} 
-{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-07T18:48:25.269Z"} 
-{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-07T18:48:30.469Z"} 
-{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-07T18:48:35.638Z"} 
-{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-07T18:48:40.383Z"} 
+{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-09T17:35:36.170Z","origin":"check-service.ts"} 
+{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-09T17:35:40.378Z","origin":"check-service.ts"} 
+{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-09T17:35:45.606Z","origin":"check-service.ts"} 
+{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-09T17:35:50.827Z","origin":"check-service.ts"} 
+{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-09T17:35:55.231Z","origin":"check-service.ts"} 
+{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-09T17:36:00.746Z","origin":"check-service.ts"} 
+{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-09T17:36:05.312Z","origin":"check-service.ts"} 
+{"message":"Service https://code.zecsba.online/ working","level":"low","createdAt":"2026-08-09T17:36:10.329Z","origin":"check-service.ts"} 
