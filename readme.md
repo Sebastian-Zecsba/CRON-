@@ -15,3 +15,6 @@ Crear una serie de tareas usando Arquitectura Limpia con TypeScript
 # Paquetes
 1. Intalar todo con ``` pnpm i install```
 2. Correr el scrip de production ```pnpm run dev``` 
+
+## obetner Gamil Key 
+[Google App Paswords](https://myccount.google.com/u/0/apppasswords)

@@ -26,7 +26,6 @@ export class ServerApp{
         // ).execute(
         //     ['zecsba2019casarias@gmail.com', 'sebitascarias@gmail.com']
         // )
-
         // emailService.sendEmailWtihFileSystemLogs(
         //     
         // )
