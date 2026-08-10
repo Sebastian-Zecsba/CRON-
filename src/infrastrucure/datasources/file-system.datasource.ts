@@ -35,7 +35,7 @@ export class FileSystemDAtasource implements LogDatasource{
 
         fs.appendFileSync(this.allLogsPath, logAsJson);
 
-        if(newLog.level = LogSeverityLevel.low) return;
+        if(newLog.level === LogSeverityLevel.low) return;
 
         if(newLog.level = LogSeverityLevel.medium){
             fs.appendFileSync(this.mediumLogsPath, logAsJson)
@@ -47,6 +47,8 @@ export class FileSystemDAtasource implements LogDatasource{
 
     private getLogsFromFile = (path: string): LogEntity[] => {
         const content = fs.readFileSync(path, 'utf-8')
+        if(content === '') return [];
+        
         const logs = content.split('\n').map(
             log => LogEntity.fromJson(log)
         );
