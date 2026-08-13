@@ -20,14 +20,16 @@ async function main(){
     const adapter = new PrismaPg(envs.POSTGRES_URL);
     const prisma = new PrismaClient({ adapter });
 
-    const newLog = await prisma.logModel.create({
-        data: { 
-            level: 'HIGH',
-            message: 'Test message',
-            origin: 'App.ts'
-        }
-    })
-    console.log(newLog);
+    // const newLog = await prisma.logModel.create({
+    //     data: { 
+    //         level: 'HIGH',
+    //         message: 'Test message',
+    //         origin: 'App.ts'
+    //     }
+    // })
+
+    // const logs = await prisma.logModel.findMany()
+    // console.log(logs)
 
     // ServerApp.start();
 }
