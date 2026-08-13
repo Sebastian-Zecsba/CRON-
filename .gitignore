@@ -6,5 +6,6 @@ logs/
 
 .env
 
-mongo/
+
+
 /src/generated/prisma
