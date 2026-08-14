@@ -1,5 +1,5 @@
 import { envs } from "./config/plugins/envs.plugin";
-import { LogModel, MongoDatabase } from "./data/mongo";
+import { MongoDatabase } from "./data/mongo";
 import { ServerApp } from "./presentation/server";
 
 import { PrismaPg } from '@prisma/adapter-pg'
@@ -17,19 +17,5 @@ async function main(){
         dbName: envs.MONGO_DB_NAME
     })
 
-    const adapter = new PrismaPg(envs.POSTGRES_URL);
-    const prisma = new PrismaClient({ adapter });
-
-    // const newLog = await prisma.logModel.create({
-    //     data: { 
-    //         level: 'HIGH',
-    //         message: 'Test message',
-    //         origin: 'App.ts'
-    //     }
-    // })
-
-    // const logs = await prisma.logModel.findMany()
-    // console.log(logs)
-
-    // ServerApp.start();
+    ServerApp.start();
 }
